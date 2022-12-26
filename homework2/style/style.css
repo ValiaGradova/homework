@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    margin: 52px 0;
+}
+
+.nav_li{
+    display: inline-block;
+}
+
+.nav_li:not(:last-of-type){
+    margin: 47px;
+}
+
+
+.nav_ul{
+    text-align: center;
+}
+
+.nav_link{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700px;
+    text-decoration: none;
+}
+
+.container{
+max-width: 1300px;
+margin: 0 auto;
+}
+
+.description{
+    background-color: rgba(26, 110, 136, 0.71);
+    text-align: center;
+    padding: 133px 0;
+}
+
+.description_text{
+    max-width: 726px;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.background{
+    text-align: center;
+    padding: 138px 0;
+    background-image: url(../img/pexels-harrison-candlin-2441454\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-title{
+    font-size: 72px;
+    line-height: 98px;
+    color: #FFFFFF;
+    margin: 0 auto 14px;
+
+}
+
+.description_button{
+    width: 420px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 49px;
+}
